@@ -1,0 +1,155 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+  }
+ .hero1 {
+    max-width: 1600px;
+    
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfbfb;
+}
+.logo-container {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    background-color: #fff; 
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circular-logo {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 100%; 
+  }
+
+header {
+    background-color:rgba(20,30,13, .7);;
+    color: #fff;
+    padding: 20px 0;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+.icon {
+    width: 80px;
+}    
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+
+.logo img {
+    width: 50px; 
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.button-box{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dac3a4; 
+    color: #0a0909;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.button-box:hover {
+    background-color: #FF9900; 
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+#background {
+    height: 725px;
+    background-color:  #dac3a4;
+}
+.msg {
+    background-color:  rgba(20,30,13, .7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: rgba(20,30,13, .7);
+    color: #fff;
+    
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+.social-icons {
+    display: flex;
+  }
+   .social-icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 5px; 
+  }
+  
+  /* Facebook icon */
+  .facebook-icon {
+    background-image: url('image/facebook.png'); 
+    background-size: cover;
+  }
+  
+  /* Twitter icon */
+  .twitter-icon {
+    background-image: url('image/twitter.png'); 
+    background-size: cover;
+  }
+  
+  /* Instagram icon */
+  .instagram-icon {
+    background-image: url('image/instagram.png'); 
+    background-size: cover;
+  }
+  
+ 
+  .social-icon:hover {
+    opacity: 0.7; 
+  }
